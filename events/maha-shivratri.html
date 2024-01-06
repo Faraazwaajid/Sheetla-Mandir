@@ -1,0 +1,783 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>माँ शीतला सदा सहाय</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/style/style.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="english">
+                <nav class="navbar navbar-expand-xl">
+                    <div class="container">
+                        <a class="navbar-brand d-flex  my-2" href="../index.html">
+                            <img src="../assets/images/logo.png" alt="Bootstrap" width="60" height="55">
+                            <div class="logo-text-container">
+                                <h1 class="fs-md-4 fs-5 mb-0 fw-bolder">Prayagraj</h1>
+                                <h2 style="font-weight: 300; margin-top: 3px; font-size: 15px;">Maa Sheetla <br
+                                        class="d-block d-sm-none" />Charitable Trust</h2>
+                            </div>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <div class="d-flex justify-content-end w-100 flex-column flex-xl-row align-items-start">
+                                <ul class="navbar-nav rounded-pill mb-2 mb-lg-0 px-4 py-2">
+                                    <li class="nav-item rounded-pill me-4 ms-0 ms-xl-2">
+                                        <a style="font-weight: 600; color: #111111;"
+                                            class="nav-link text-start text-xl-center rounded-pill nav-btn"
+                                            aria-current="page" href="../index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item mt-1 mt-xl-0 me-4 rounded-pill dropdown">
+                                        <a style="font-weight: 600; color: #111111;"
+                                            class="nav-link text-start text-xl-center rounded-pill nav-btn dropdown-toggle"
+                                            href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            About
+                                        </a>
+                                        <ul class="dropdown-menu" style="width:240px">
+                                            <li class="fw-bold px-3">हमारी पवित्र यात्रा का अन्वेषण करें</li>
+                                            <hr class="dropdown-divider">
+                                            <li><a class="dropdown-item" href="../parichay.html#1">
+                                                    <div class="d-flex">
+                                                        <img src="../assets/images/modal.png" width="30" height="30"
+                                                            class="me-2" />
+                                                        <div class="d-flex flex-column">
+                                                            <h5 class="m-0 fw-bold" style="font-size: 13px;">About Us
+                                                            </h5>
+                                                            <p style="font-size: 15px;">माँ शीतला चैरिटेबल ट्रस्ट</p>
+                                                        </div>
+                                                    </div>
+                                                </a></li>
+                                            <li><a class="dropdown-item" href="../parichay.html#2">
+                                                    <div class="d-flex">
+                                                        <img src="../assets/images/modal.png" width="30" height="30"
+                                                            class="me-2" />
+                                                        <div class="d-flex flex-column">
+                                                            <h5 class="m-0 fw-bold" style="font-size: 13px;">Founder
+                                                            </h5>
+                                                            <p style="font-size: 15px;">माँ शीतला चैरिटेबल ट्रस्ट</p>
+                                                        </div>
+                                                    </div>
+                                                </a></li>
+                                            <li><a class="dropdown-item" href="../parichay.html#3">
+                                                    <div class="d-flex">
+                                                        <img src="../assets/images/modal.png" width="30" height="30"
+                                                            class="me-2" />
+                                                        <div class="d-flex flex-column">
+                                                            <h5 class="m-0 fw-bold" style="font-size: 13px;">Our Mission
+                                                            </h5>
+                                                            <p style="font-size: 15px;">माँ शीतला चैरिटेबल ट्रस्ट</p>
+                                                        </div>
+                                                    </div>
+                                                </a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item mt-1 mt-xl-0 me-4 rounded-pill dropdown">
+                                        <a style="font-weight: 600; color: #111111;"
+                                            class="nav-link text-start text-xl-center rounded-pill nav-btn dropdown-toggle"
+                                            href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Temple
+                                        </a>
+                                        <ul class="dropdown-menu" style="width:240px; background: #ffffff;">
+                                            <li class="fw-bold px-3">हमारे पवित्र मंदिर और दिव्य अनुष्ठान को जानें</li>
+                                            <hr class="dropdown-divider">
+                                            <li><a class="dropdown-item" href="../mandir.html#1" onclick="changeDiv(1)">
+                                                    <div class="d-flex">
+                                                        <img src="../assets/images/modal.png" width="30" height="30"
+                                                            class="me-2" />
+                                                        <div class="d-flex flex-column">
+                                                            <h5 class="m-0 fw-bold" style="font-size: 13px;">History
+                                                            </h5>
+                                                            <p style="font-size: 15px;">माँ शीतला चैरिटेबल ट्रस्ट</p>
+                                                        </div>
+                                                    </div>
+                                                </a></li>
+                                            <li><a class="dropdown-item" href="../mandir.html#3" onclick="changeDiv(3)">
+                                                    <div class="d-flex">
+                                                        <img src="../assets/images/modal.png" width="30" height="30"
+                                                            class="me-2" />
+                                                        <div class="d-flex flex-column">
+                                                            <h5 class="m-0 fw-bold" style="font-size: 13px;">Activites
+                                                            </h5>
+                                                            <p style="font-size: 15px;">माँ शीतला चैरिटेबल ट्रस्ट</p>
+                                                        </div>
+                                                    </div>
+                                                </a></li>
+                                            <li><a class="dropdown-item" href="../mandir.html#2" onclick="changeDiv(2)">
+                                                    <div class="d-flex">
+                                                        <img src="../assets/images/modal.png" width="30" height="30"
+                                                            class="me-2" />
+                                                        <div class="d-flex flex-column">
+                                                            <h5 class="m-0 fw-bold" style="font-size: 13px;">Schedule
+                                                            </h5>
+                                                            <p style="font-size: 15px;">माँ शीतला चैरिटेबल ट्रस्ट</p>
+                                                        </div>
+                                                    </div>
+                                                </a></li>
+                                            <li><a class="dropdown-item" href="../mandir.html#4" onclick="changeDiv(4)">
+                                                    <div class="d-flex">
+                                                        <img src="../assets/images/modal.png" width="30" height="30"
+                                                            class="me-2" />
+                                                        <div class="d-flex flex-column">
+                                                            <h5 class="m-0 fw-bold" style="font-size: 13px;">Gallery
+                                                            </h5>
+                                                            <p style="font-size: 15px;">माँ शीतला चैरिटेबल ट्रस्ट</p>
+                                                        </div>
+                                                    </div>
+                                                </a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item mt-1 mt-xl-0 rounded-pill me-4">
+                                        <a class="nav-link active text-start text-xl-center rounded-pill nav-btn"
+                                            style="font-weight: 600; color: #111111;" aria-current="page"
+                                            href="../ayojan.html">Events</a>
+                                    </li>
+                                    <li class="nav-item mt-1 mt-xl-0 rounded-pill me-2">
+                                        <a class="nav-link text-start text-xl-center rounded-pill nav-btn"
+                                            style="font-weight: 600; color: #111111;" aria-current="page"
+                                            href="../daan.html">Donate</a>
+                                    </li>
+                                </ul>
+                                <div class="nav-btn-container">
+                                    <button class="menu-btn btn rounded-circle ms-3 me-2 p-0 lang-btn">अ/En</button>
+                                    <button class="menu-btn btn rounded-circle p-0"><a href="tel:7380611742"><img
+                                                src="../assets/images/call.png" /></a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="hindi">
+                <nav class="navbar navbar-expand-xl">
+                    <div class="container">
+                        <a class="navbar-brand d-flex  my-2" href="../index.html">
+                            <img src="../assets/images/logo.png" alt="Bootstrap" width="60" height="55">
+                            <div class="logo-text-container">
+                                <h1 class="fs-md-4 fs-5 mb-0 fw-bolder">प्रयागराज</h1>
+                                <h2 style="font-weight: 300; margin-top: 3px; font-size: 15px;">माँ शीतला चैरिटेबल
+                                    ट्रस्ट</h2>
+                            </div>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <div class="d-flex justify-content-end w-100 flex-column flex-xl-row align-items-start">
+                                <ul class="navbar-nav rounded-pill mb-2 mb-lg-0 px-4 py-2">
+                                    <li class="nav-item rounded-pill me-4 ms-0 ms-xl-2">
+                                        <a style="font-weight: 600; color: #111111;"
+                                            class="nav-link text-start text-xl-center rounded-pill nav-btn"
+                                            aria-current="page" href="../index.html">होम</a>
+                                    </li>
+                                    <li class="nav-item mt-1 mt-xl-0 me-4 rounded-pill dropdown">
+                                        <a style="font-weight: 600; color: #111111;"
+                                            class="nav-link text-start text-xl-center rounded-pill nav-btn dropdown-toggle"
+                                            href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            विषय
+                                        </a>
+                                        <ul class="dropdown-menu" style="width:240px">
+                                            <li class="fw-bold px-3">हमारी पवित्र यात्रा का अन्वेषण करें</li>
+                                            <hr class="dropdown-divider">
+                                            <li><a class="dropdown-item" href="../parichay.html#1">
+                                                    <div class="d-flex">
+                                                        <img src="../assets/images/modal.png" width="30" height="30"
+                                                            class="me-2" />
+                                                        <div class="d-flex flex-column">
+                                                            <h5 class="m-0 fw-bold" style="font-size: 13px;">परिचय</h5>
+                                                            <p style="font-size: 15px;">माँ शीतला चैरिटेबल ट्रस्ट</p>
+                                                        </div>
+                                                    </div>
+                                                </a></li>
+                                            <li><a class="dropdown-item" href="../parichay.html#2">
+                                                    <div class="d-flex">
+                                                        <img src="../assets/images/modal.png" width="30" height="30"
+                                                            class="me-2" />
+                                                        <div class="d-flex flex-column">
+                                                            <h5 class="m-0 fw-bold" style="font-size: 13px;">निर्माता
+                                                            </h5>
+                                                            <p style="font-size: 15px;">माँ शीतला चैरिटेबल ट्रस्ट</p>
+                                                        </div>
+                                                    </div>
+                                                </a></li>
+                                            <li><a class="dropdown-item" href="../parichay.html#3">
+                                                    <div class="d-flex">
+                                                        <img src="../assets/images/modal.png" width="30" height="30"
+                                                            class="me-2" />
+                                                        <div class="d-flex flex-column">
+                                                            <h5 class="m-0 fw-bold" style="font-size: 13px;">हमारा
+                                                                मिशन
+                                                            </h5>
+                                                            <p style="font-size: 15px;">माँ शीतला चैरिटेबल ट्रस्ट</p>
+                                                        </div>
+                                                    </div>
+                                                </a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item mt-1 mt-xl-0 me-4 rounded-pill dropdown">
+                                        <a style="font-weight: 600; color: #111111;"
+                                            class="nav-link text-start text-xl-center rounded-pill nav-btn dropdown-toggle"
+                                            href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            मंदिर
+                                        </a>
+                                        <ul class="dropdown-menu" style="width:240px">
+                                            <li class="fw-bold px-3">हमारे पवित्र मंदिर और दिव्य अनुष्ठान को जानें</li>
+                                            <hr class="dropdown-divider">
+                                            <li><a class="dropdown-item" href="../mandir.html#1" onclick="changeDiv(1)">
+                                                    <div class="d-flex">
+                                                        <img src="../assets/images/modal.png" width="30" height="30"
+                                                            class="me-2" />
+                                                        <div class="d-flex flex-column">
+                                                            <h5 class="m-0 fw-bold" style="font-size: 13px;">इतिहास
+                                                            </h5>
+                                                            <p style="font-size: 15px;">माँ शीतला कृपा मंदिर</p>
+                                                        </div>
+                                                    </div>
+                                                </a></li>
+                                            <li><a class="dropdown-item" href="../mandir.html#3" onclick="changeDiv(3)">
+                                                    <div class="d-flex">
+                                                        <img src="../assets/images/modal.png" width="30" height="30"
+                                                            class="me-2" />
+                                                        <div class="d-flex flex-column">
+                                                            <h5 class="m-0 fw-bold" style="font-size: 13px;">सेवाकार्य
+                                                            </h5>
+                                                            <p style="font-size: 15px;">माँ शीतला कृपा मंदिर</p>
+                                                        </div>
+                                                    </div>
+                                                </a></li>
+                                            <li><a class="dropdown-item" href="../mandir.html#2" onclick="changeDiv(2)">
+                                                    <div class="d-flex">
+                                                        <img src="../assets/images/modal.png" width="30" height="30"
+                                                            class="me-2" />
+                                                        <div class="d-flex flex-column">
+                                                            <h5 class="m-0 fw-bold" style="font-size: 13px;">कार्यक्रम
+                                                            </h5>
+                                                            <p style="font-size: 15px;">माँ शीतला कृपा मंदिर</p>
+                                                        </div>
+                                                    </div>
+                                                </a></li>
+                                            <li><a class="dropdown-item" href="../mandir.html#4" onclick="changeDiv(4)">
+                                                    <div class="d-flex">
+                                                        <img src="../assets/images/modal.png" width="30" height="30"
+                                                            class="me-2" />
+                                                        <div class="d-flex flex-column">
+                                                            <h5 class="m-0 fw-bold" style="font-size: 13px;">गैलरी
+                                                            </h5>
+                                                            <p style="font-size: 15px;">माँ शीतला कृपा मंदिर</p>
+                                                        </div>
+                                                    </div>
+                                                </a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item mt-1 mt-xl-0 rounded-pill me-4">
+                                        <a class="nav-link active text-start text-xl-center rounded-pill nav-btn"
+                                            style="font-weight: 600; color: #111111;" aria-current="page"
+                                            href="../ayojan.html">आयोजन</a>
+                                    </li>
+                                    <li class="nav-item mt-1 mt-xl-0 rounded-pill me-4">
+                                        <a class="nav-link text-start text-xl-center rounded-pill nav-btn"
+                                            style="font-weight: 600; color: #111111;" aria-current="page"
+                                            href="../daan.html">दान</a>
+                                    </li>
+                                </ul>
+                                <div class="nav-btn-container">
+                                    <button class="menu-btn btn rounded-circle ms-3 me-2 p-0 lang-btn">अ/En</button>
+                                    <button class="menu-btn btn rounded-circle p-0"><a href="tel:7380611742"><img
+                                                src="../assets/images/call.png" /></a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <section style="background: #f2f5f9;" class="pb-4">
+            <div class="english">
+                <div class="container">
+                    <div class="d-flex flex-column">
+                        <img class="img-fluid mb-5" src="../assets/images/ayojan-carousel4/events/krupa/5.png" />
+                        <h2 class="me-auto mb-3 text-center w-100" style="color: #FF9933; font-weight: 600;">MahaShivratri
+                        </h2>
+                        <div class="d-flex flex-column align-items-center text-center" style="font-weight: 600;">
+                            <p class="w-100">शिवजी का ध्यान मंत्र</p>
+                            <p class="mantra">ध्यायेन्नित्यं महेशं रजतगिरिनिभं चारुचन्द्रावतंसं
+                                रत्नाकल्पोज्ज्चलाङ्गं परशुमृगवराभीतिहस्तं प्रसन्नम्।
+                                पद्मासीनं समन्तात् स्तुतममरगणैर्व्याघ्रकृत्तिं वसानं
+                                विश्वाद्यं विश्वबीजं निखिलभयहरं पञ्चवक्त्रं त्रिनेत्रम्॥</p>
+                        </div>
+                        <div class="d-flex flex-column mt-5">
+                            <p class="p-0 m-0">Mahashivratri is an important festival in Hinduism dedicated to the worship and adoration of Lord Shiva. It is celebrated on the 13th night of the waning moon in the month of Magha, known as Mahashivratri, and observed with grandeur in various parts of India.</p>
+                            <p class="p-0 m-0">The festival at the Maa Sheetla Krupa Temple in Prayagraj holds special significance during Mahashivratri. This place, inspired by the grace and blessings of Lord Shiva, marks the occasion of Mahashivratri with grand celebrations every year.</p>
+                            <p class="p-0 m-0">On Mahashivratri at Maa Sheetla Krupa Temple, special rituals and ceremonies are performed. Devotees eagerly participate in the worship of the Shiva Lingam, expressing reverence and devotion towards Lord Shiva. Following the worship, there's a provision for special Prasad, which devotees receive after the ceremonies.</p>
+                            <p class="p-0 m-0">On this unique day of Mahashivratri, devotees gather in the temple premises. People engage in night-long prayers and worship of the Shiva Lingam with devotion and reverence. Through meditation, hymns, chants, and devotional songs, devotees offer their prayers and devotion.</p>
+                            <p class="p-0 m-0">This festival of Mahashivratri creates an atmosphere of uniqueness and tranquility. Devotees immerse themselves in meditation and seek the blessings of Lord Shiva. The celebrations of Mahashivratri at Maa Sheetla Krupa Temple fill people with peace and positive energy, integrating these into their lives with prosperity.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hindi">
+                <div class="container">
+                    <div class="d-flex flex-column">
+                        <img class="img-fluid mb-5" src="../assets/images/ayojan-carousel4/events/krupa/5.png" />
+                        <h2 class="me-auto mb-3 text-center w-100" style="color: #FF9933; font-weight: 600;">महाशिवरात्रि
+                        </h2>
+                        <div class="d-flex flex-column align-items-center text-center" style="font-weight: 600;">
+                            <p class="w-100">शिवजी का ध्यान मंत्र</p>
+                            <p class="mantra">ध्यायेन्नित्यं महेशं रजतगिरिनिभं चारुचन्द्रावतंसं
+                                रत्नाकल्पोज्ज्चलाङ्गं परशुमृगवराभीतिहस्तं प्रसन्नम्।
+                                पद्मासीनं समन्तात् स्तुतममरगणैर्व्याघ्रकृत्तिं वसानं
+                                विश्वाद्यं विश्वबीजं निखिलभयहरं पञ्चवक्त्रं त्रिनेत्रम्॥</p>
+                        </div>
+                        <div class="d-flex flex-column mt-5">
+                            <p class="p-0 m-0" style="font-size: 14px;">महाशिवरात्रि हिन्दू धर्म में महत्वपूर्ण त्योहारों
+                                में से एक है जो महादेव शिव की पूजा और उनकी आराधना के लिए मनाया जाता है। इस दिन भगवान शिव की
+                                अद्भुतता, शक्ति और दया की पूजा की जाती है। माघ मास के कृष्ण पक्ष की त्रयोदशी को महाशिवरात्रि
+                                कहा जाता है, जिसे विभिन्न भागों में भारत में विशेष धूमधाम से मनाया जाता है।</p>
+                            <p class="p-0 m-0" style="font-size: 14px;">प्रयागराज के माँ शीतला कृपा मंदिर में महाशिवरात्रि
+                                का उत्सव एक विशेष रूप से मनाया जाता है। यह स्थान भगवान शिव की कृपा और आशीर्वाद से प्रेरित है
+                                और यहां हर साल महाशिवरात्रि को विशेष धूमधाम के साथ मनाया जाता है।</p>
+                            <p class="p-0 m-0" style="font-size: 14px;">माँ शीतला कृपा मंदिर में महाशिवरात्रि के दिन विशेष
+                                पूजा अर्चना होती है। भक्तजन शिवलिंग की पूजा के लिए बड़ी उत्साहित होते हैं और श्रद्धाभाव से
+                                भगवान शिव की आराधना करते हैं। पूजा के बाद, महाप्रसाद की विशेष व्यवस्था की जाती है, जिसमें
+                                भक्तों को प्रसाद के रूप में खाना मिलता है।</p>
+                            <p class="p-0 m-0" style="font-size: 14px;">महाशिवरात्रि के इस अद्वितीय दिन पर, मंदिर के परिसर
+                                में भक्तजनों का संग्रह होता है। लोग आराधना और भक्ति भावना के साथ रात्रि भर शिवलिंग की पूजा
+                                करते हैं। ध्यान, भजन, कीर्तन और भक्ति गीतों के माध्यम से भक्तजन अपनी भक्ति का अर्पण करते
+                                हैं।</p>
+                            <p class="p-0 m-0" style="font-size: 14px;">महाशिवरात्रि का यह उत्सव अद्वितीयता और शांति का
+                                माहौल बनाता है। भक्तजन शिव के ध्यान में रत रहते हैं और उनकी कृपा का आशीर्वाद प्राप्त करते
+                                हैं। माँ शीतला कृपा मंदिर में मनाए जाने वाले महाशिवरात्रि के उत्सव से लोग शांति और सकारात्मक
+                                ऊर्जा से भरा रहते हैं और इसे समृद्धि के साथ अपने जीवन में शामिल करते हैं।</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="py-5">
+            <div class="english">
+                <div class="container px-4">
+                    <div class="d-flex flex-row flex-wrap flex-xl-nowrap justify-content-start">
+                        <div class="d-flex flex-column pe-3 mb-4">
+                            <a class="navbar-brand d-flex align-items-center mb-3" href="../index.html">
+                                <img src="../assets/images/logo.png" alt="Bootstrap" width="60" height="55">
+                                <div class="logo-text-container">
+                                    <h1 class="fs-md-4 fs-5 mb-0 fw-bolder">Prayagraj</h1>
+                                    <h2 style="font-weight: 300; margin-top: 3px; font-size: 15px;">Maa Sheetla <br
+                                            class="d-block d-sm-none" />Charitable Trust</h2>
+                                </div>
+                            </a>
+                            <h3 style="font-weight: 600; font-size: 16px;" class="mb-3">“Sona Bhwan “,Kunwarpatti ,
+                                Jevaniya , Meza , Prayagraj</h3>
+                            <div class="socials mb-3">
+                                <a style="text-decoration: none;" class="me-3"
+                                    href="https://www.facebook.com/maasheetlaorg?mibextid=kFxxJD" target="_blank">
+                                    <img src="../assets/images/ic_baseline-facebook.svg" width="25" height="25">
+                                </a>
+                                <a style="text-decoration: none;" class="me-3"
+                                    href="https://www.instagram.com/maasheetlaorg?igsh=cmp3ZndtN3VxYXBw"
+                                    target="_blank">
+                                    <img src="../assets/images/bi_instagram.svg" width="25" height="25">
+                                </a>
+                                <a style="text-decoration: none;" class="me-3"
+                                    href="https://youtube.com/@maasheetalaorg?si=ElGPMiPkMz3HMtWj" target="_blank">
+                                    <img src="../assets/images/fa_youtube.svg" width="25" height="25">
+                                </a>
+                            </div>
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <button class="btn rounded-circle"
+                                        style="background: #F93; height: 40px; width: 40px;"><img
+                                            style="width: 14px; height: 14px;"
+                                            src="../assets/images/call.png" /></button>
+                                    <p class="my-auto ms-2 fw-bold">7380611742</p>
+                                </div>
+                                <div class="d-flex">
+                                    <button class="btn p-0 rounded-circle fs-white ms-5 lang-btn"
+                                        style="background: #F93; height: 40px; width: 40px; font-size: 10px; font-weight: 600;">अ/En</button>
+                                    <p class="my-auto ms-2 fw-bold d-none d-sm-block d-xl-none lang-btn">Translate</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column pe-3 mb-4">
+                            <p class="fw-bold">About</p>
+                            <ul class="list-unstyled">
+                                <li><a class="dropdown-item" href="../parichay.html#1">
+                                        <div class="d-flex">
+                                            <img src="../assets/images/modal.png" width="30" height="30" class="me-2" />
+                                            <div class="d-flex flex-column">
+                                                <h5 class="m-0 fw-bold" style="font-size: 13px;">About Us</h5>
+                                                <p class="footer-subtext">Maa Sheetla Charitable Trust</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li><a class="dropdown-item" href="../parichay.html#3">
+                                        <div class="d-flex">
+                                            <img src="../assets/images/modal.png" width="30" height="30" class="me-2" />
+                                            <div class="d-flex flex-column">
+                                                <h5 class="m-0 fw-bold" style="font-size: 13px;">Our Mission</h5>
+                                                <p class="footer-subtext">Maa Sheetla Charitable Trust</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li><a class="dropdown-item" href="../parichay.html#2">
+                                        <div class="d-flex">
+                                            <img src="../assets/images/modal.png" width="30" height="30" class="me-2" />
+                                            <div class="d-flex flex-column">
+                                                <h5 class="m-0 fw-bold" style="font-size: 13px;">Founder</h5>
+                                                <p class="footer-subtext">Maa Sheetla Charitable Trust</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="d-flex flex-column pe-3 pe-sm-5 mb-4">
+                            <p class="fw-bold">Temple</p>
+                            <ul class="list-unstyled">
+                                <li><a class="dropdown-item" href="../mandir.html#1">
+                                        <div class="d-flex">
+                                            <img src="../assets/images/modal.png" width="30" height="30" class="me-2" />
+                                            <div class="d-flex flex-column">
+                                                <h5 class="m-0 fw-bold" style="font-size: 13px;">History</h5>
+                                                <p class="footer-subtext">Maa Sheetla Krupa Mandir</p>
+                                            </div>
+                                        </div>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="../mandir.html#2">
+                                        <div class="d-flex">
+                                            <img src="../assets/images/modal.png" width="30" height="30" class="me-2" />
+                                            <div class="d-flex flex-column">
+                                                <h5 class="m-0 fw-bold" style="font-size: 13px;">Activites</h5>
+                                                <p class="footer-subtext">Maa Sheetla Krupa Mandir</p>
+                                            </div>
+                                        </div>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="../mandir.html#3">
+                                        <div class="d-flex">
+                                            <img src="../assets/images/modal.png" width="30" height="30" class="me-2" />
+                                            <div class="d-flex flex-column">
+                                                <h5 class="m-0 fw-bold" style="font-size: 13px;">Schedule</h5>
+                                                <p class="footer-subtext">Maa Sheetla Krupa Mandir</p>
+                                            </div>
+                                        </div>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="../mandir.html#4">
+                                        <div class="d-flex">
+                                            <img src="../assets/images/modal.png" width="30" height="30" class="me-2" />
+                                            <div class="d-flex flex-column">
+                                                <h5 class="m-0 fw-bold" style="font-size: 13px;">Gallery</h5>
+                                                <p class="footer-subtext">Maa Sheetla Krupa Mandir</p>
+                                            </div>
+                                        </div>
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <div class="d-flex flex-column pe-3 ">
+                            <p class="fw-bold">Timings</p>
+                            <ul class="list-unstyled">
+                                <div class="d-flex flex-column flex-md-row">
+                                    <div>
+                                        <li><a class="dropdown-item" href="#">
+                                                <div class="d-flex">
+                                                    <img src="../assets/images/clock.svg" width="30" height="30"
+                                                        class="me-2" />
+                                                    <div class="d-flex flex-column">
+                                                        <h5 class="m-0 fw-bold" style="font-size: 13px;">03:00 A.M.</h5>
+                                                        <p class="footer-subtext">Mandir Opens</p>
+                                                    </div>
+                                                </div>
+                                            </a></li>
+                                        <li><a class="dropdown-item" href="#">
+                                                <div class="d-flex">
+                                                    <img src="../assets/images/clock.svg" width="30" height="30"
+                                                        class="me-2" />
+                                                    <div class="d-flex flex-column">
+                                                        <h5 class="m-0 fw-bold" style="font-size: 13px;">06:00 A.M.</h5>
+                                                        <p class="footer-subtext">Morning Prayer</p>
+                                                    </div>
+                                                </div>
+                                            </a></li>
+                                        <li><a class="dropdown-item" href="#">
+                                                <div class="d-flex">
+                                                    <img src="../assets/images/clock.svg" width="30" height="30"
+                                                        class="me-2" />
+                                                    <div class="d-flex flex-column">
+                                                        <h5 class="m-0 fw-bold" style="font-size: 13px;">12:00 A.M.</h5>
+                                                        <p class="footer-subtext">Mandir Closes(Afternoon)</p>
+                                                    </div>
+                                                </div>
+                                            </a></li>
+                                        <li><a class="dropdown-item" href="#">
+                                                <div class="d-flex">
+                                                    <img src="../assets/images/clock.svg" width="30" height="30"
+                                                        class="me-2" />
+                                                    <div class="d-flex flex-column">
+                                                        <h5 class="m-0 fw-bold" style="font-size: 13px;">02:30 P.M.</h5>
+                                                        <p class="footer-subtext">Mandir Opens(Evening)</p>
+                                                    </div>
+                                                </div>
+                                            </a></li>
+                                    </div>
+                                    <div>
+                                        <li><a class="dropdown-item" href="#">
+                                                <div class="d-flex">
+                                                    <img src="../assets/images/clock.svg" width="30" height="30"
+                                                        class="me-2" />
+                                                    <div class="d-flex flex-column">
+                                                        <h5 class="m-0 fw-bold" style="font-size: 13px;">06:00 P.M.</h5>
+                                                        <p class="footer-subtext">Evening Prayer</p>
+                                                    </div>
+                                                </div>
+                                            </a></li>
+                                        <li><a class="dropdown-item" href="#">
+                                                <div class="d-flex">
+                                                    <img src="../assets/images/clock.svg" width="30" height="30"
+                                                        class="me-2" />
+                                                    <div class="d-flex flex-column">
+                                                        <h5 class="m-0 fw-bold" style="font-size: 13px;">08:00 P.M.</h5>
+                                                        <p class="footer-subtext">रात्रि शयन</p>
+                                                    </div>
+                                                </div>
+                                            </a></li>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr style="margin-top: -10px;" class="border-2" />
+                    <div class="d-flex justify-content-between flex-column flex-sm-row align-items-center text-center">
+                        <p style="font-weight: 600;">©2024 Maa Sheetla Charitable Trust | All Rights Reserved
+                        </p>
+                        <p style="font-weight: 600;">Website by DIGINEXA</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hindi">
+                <div class="container px-4">
+                    <div class="d-flex flex-row flex-wrap flex-xl-nowrap hindi-footer">
+                        <div class="d-flex flex-column pe-5 mb-4">
+                            <a class="navbar-brand d-flex align-items-center mb-3" href="../index.html">
+                                <img src="../assets/images/logo.png" alt="Bootstrap" width="68" height="63">
+                                <div class="logo-text-container">
+                                    <h1 class="fs-5 mb-0 fw-bolder">प्रयागराज</h1>
+                                    <h2 style="font-weight: 300; margin-top: 3px; font-size: 15px;">माँ शीतला चैरिटेबल
+                                        ट्रस्ट</h2>
+                                </div>
+                            </a>
+                            <h3 style="font-weight: 600; font-size: 1rem;" class="mb-3">“ सोना भवन “,कुंवरपट्टी ,
+                                जेवनियाँ ,
+                                मेजा ,
+                                प्रयागराज</h3>
+                            <div class="socials mb-3">
+                                <a style="text-decoration: none;" class="me-3"
+                                    href="https://www.facebook.com/maasheetlaorg?mibextid=kFxxJD" target="_blank">
+                                    <img src="../assets/images/ic_baseline-facebook.svg" width="25" height="25">
+                                </a>
+                                <a style="text-decoration: none;" class="me-3"
+                                    href="https://www.instagram.com/maasheetlaorg?igsh=cmp3ZndtN3VxYXBw"
+                                    target="_blank">
+                                    <img src="../assets/images/bi_instagram.svg" width="25" height="25">
+                                </a>
+                                <a style="text-decoration: none;" class="me-3"
+                                    href="https://youtube.com/@maasheetalaorg?si=ElGPMiPkMz3HMtWj" target="_blank">
+                                    <img src="../assets/images/fa_youtube.svg" width="25" height="25">
+                                </a>
+                            </div>
+                            <div class="d-flex">
+                                <div class="d-flex">
+                                    <button class="btn rounded-circle"
+                                        style="background: #F93; height: 40px; width: 40px;"><img
+                                            style="width: 14px; height: 14px;"
+                                            src="../assets/images/call.png" /></button>
+                                    <p class="my-auto ms-2 fw-bold">7380611742</p>
+                                </div>
+                                <button class="btn p-0 rounded-circle fs-white ms-5 lang-btn"
+                                    style="background: #F93; height: 40px; width: 40px; font-size: 10px; font-weight: 600;">अ/En</button>
+                                <p class="my-auto ms-2 fw-bold d-none d-sm-block d-xl-none lang-btn">अनुवाद </p>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column pe-5 mb-4">
+                            <p class="fw-bold">विषय</p>
+                            <ul class="list-unstyled">
+                                <li><a class="dropdown-item" href="../parichay.html#1">
+                                        <div class="d-flex">
+                                            <img src="../assets/images/modal.png" width="30" height="30" class="me-2" />
+                                            <div class="d-flex flex-column">
+                                                <h5 class="m-0 fw-bold" style="font-size: 13px;">परिचय</h5>
+                                                <p class="footer-subtext">माँ शीतला चैरिटेबल ट्रस्ट</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li><a class="dropdown-item" href="../parichay.html#3">
+                                        <div class="d-flex">
+                                            <img src="../assets/images/modal.png" width="30" height="30" class="me-2" />
+                                            <div class="d-flex flex-column">
+                                                <h5 class="m-0 fw-bold" style="font-size: 13px;">हमारा मिशन</h5>
+                                                <p class="footer-subtext">माँ शीतला चैरिटेबल ट्रस्ट</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li><a class="dropdown-item" href="../parichay.html#2">
+                                        <div class="d-flex">
+                                            <img src="../assets/images/modal.png" width="30" height="30" class="me-2" />
+                                            <div class="d-flex flex-column">
+                                                <h5 class="m-0 fw-bold" style="font-size: 13px;">निर्माता</h5>
+                                                <p class="footer-subtext">माँ शीतला चैरिटेबल ट्रस्ट</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="d-flex flex-column pe-5 pe-sm-5 mb-4">
+                            <p class="fw-bold">मंदिर</p>
+                            <ul class="list-unstyled">
+                                <li><a class="dropdown-item" href="../mandir.html#1">
+                                        <div class="d-flex">
+                                            <img src="../assets/images/modal.png" width="30" height="30" class="me-2" />
+                                            <div class="d-flex flex-column">
+                                                <h5 class="m-0 fw-bold" style="font-size: 13px;">इतिहास</h5>
+                                                <p class="footer-subtext">माँ शीतला कृपा मंदिर</p>
+                                            </div>
+                                        </div>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="../mandir.html#2">
+                                        <div class="d-flex">
+                                            <img src="../assets/images/modal.png" width="30" height="30" class="me-2" />
+                                            <div class="d-flex flex-column">
+                                                <h5 class="m-0 fw-bold" style="font-size: 13px;">कार्यक्रम</h5>
+                                                <p class="footer-subtext">माँ शीतला कृपा मंदिर</p>
+                                            </div>
+                                        </div>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="../mandir.html#3">
+                                        <div class="d-flex">
+                                            <img src="../assets/images/modal.png" width="30" height="30" class="me-2" />
+                                            <div class="d-flex flex-column">
+                                                <h5 class="m-0 fw-bold" style="font-size: 13px;">सेवाकार्य</h5>
+                                                <p class="footer-subtext">माँ शीतला कृपा मंदिर</p>
+                                            </div>
+                                        </div>
+                                    </a></li>
+                                <li><a class="dropdown-item" href="../mandir.html#4">
+                                        <div class="d-flex">
+                                            <img src="../assets/images/modal.png" width="30" height="30" class="me-2" />
+                                            <div class="d-flex flex-column">
+                                                <h5 class="m-0 fw-bold" style="font-size: 13px;">गैलरी</h5>
+                                                <p class="footer-subtext">माँ शीतला कृपा मंदिर</p>
+                                            </div>
+                                        </div>
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <div class="d-flex flex-column me-5 ">
+                            <p class="fw-bold">समय</p>
+                            <ul class="list-unstyled">
+                                <div class="d-flex flex-column flex-md-row">
+                                    <div>
+                                        <li><a class="dropdown-item" href="#">
+                                                <div class="d-flex">
+                                                    <img src="../assets/images/clock.svg" width="30" height="30"
+                                                        class="me-2" />
+                                                    <div class="d-flex flex-column">
+                                                        <h5 class="m-0 fw-bold" style="font-size: 13px;">03:00 ए.एम्
+                                                        </h5>
+                                                        <p class="footer-subtext">प्रातः मंदिर खुलने का समय</p>
+                                                    </div>
+                                                </div>
+                                            </a></li>
+                                        <li><a class="dropdown-item" href="#">
+                                                <div class="d-flex">
+                                                    <img src="../assets/images/clock.svg" width="30" height="30"
+                                                        class="me-2" />
+                                                    <div class="d-flex flex-column">
+                                                        <h5 class="m-0 fw-bold" style="font-size: 13px;">06:00 ए.एम्
+                                                        </h5>
+                                                        <p class="footer-subtext">प्रातः आरती</p>
+                                                    </div>
+                                                </div>
+                                            </a></li>
+                                        <li><a class="dropdown-item" href="#">
+                                                <div class="d-flex">
+                                                    <img src="../assets/images/clock.svg" width="30" height="30"
+                                                        class="me-2" />
+                                                    <div class="d-flex flex-column">
+                                                        <h5 class="m-0 fw-bold" style="font-size: 13px;">12:00 ए.एम्
+                                                        </h5>
+                                                        <p class="footer-subtext">मन्दिर बंद होने का समय</p>
+                                                    </div>
+                                                </div>
+                                            </a></li>
+                                        <li><a class="dropdown-item" href="#">
+                                                <div class="d-flex">
+                                                    <img src="../assets/images/clock.svg" width="30" height="30"
+                                                        class="me-2" />
+                                                    <div class="d-flex flex-column">
+                                                        <h5 class="m-0 fw-bold" style="font-size: 13px;">02:30 पी.एम्
+                                                        </h5>
+                                                        <p class="footer-subtext">शाम मन्दिर खुलने का समय</p>
+                                                    </div>
+                                                </div>
+                                            </a></li>
+                                    </div>
+                                    <div class="ms-0 ms-md-3">
+                                        <li><a class="dropdown-item" href="#">
+                                                <div class="d-flex">
+                                                    <img src="../assets/images/clock.svg" width="30" height="30"
+                                                        class="me-2" />
+                                                    <div class="d-flex flex-column">
+                                                        <h5 class="m-0 fw-bold" style="font-size: 13px;">06:00 पी.एम्
+                                                        </h5>
+                                                        <p class="footer-subtext">शाम आरती समय</p>
+                                                    </div>
+                                                </div>
+                                            </a></li>
+                                        <li><a class="dropdown-item" href="#">
+                                                <div class="d-flex">
+                                                    <img src="../assets/images/clock.svg" width="30" height="30"
+                                                        class="me-2" />
+                                                    <div class="d-flex flex-column">
+                                                        <h5 class="m-0 fw-bold" style="font-size: 13px;">08:00 पी.एम्
+                                                        </h5>
+                                                        <p class="footer-subtext">रात्रि शयन</p>
+                                                    </div>
+                                                </div>
+                                            </a></li>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr style="margin-top: -10px;" class="border-2" />
+                    <div class="d-flex justify-content-between flex-column flex-sm-row align-items-center text-center">
+                        <p style="font-weight: 600;">©2024 माँ शीतला चैरिटेबल ट्रस्ट ,प्रयागराज | सभी अधिकार सुरक्षित
+                            हैं
+                        </p>
+                        <p style="font-weight: 600;">वेबसाइट बाय DIGINEXA</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="../assets/script/translate.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.hidden {
+  display: none;
+}
+.lang-btn:hover {
+  background: #f93;
+  color: #ffffff;
+}
+.footer-subtext {
+  font-size: 15px;
+}
+.carousel-caption {
+  height: 100px;
+  left: 5% !important;
+  top: calc(100% - 140px) !important;
+  overflow: hidden;
+}
+.item-img {
+  border-radius: 30px;
+}
+.hindi-footer {
+  justify-content: start;
+}
+.fs-white {
+  color: #ffffff;
+}
+.fs-6 {
+  font-size: 16px;
+}
+.my-btn.active {
+  background: #ff9933;
+  color: #ffffff;
+  font-weight: 500;
+}
+/* navbar */
+
+.menu-btn {
+  background: #ff9933;
+  color: #ffffff;
+  font-size: 13px;
+  width: 50px;
+  height: 50px;
+}
+.menu-btn:hover {
+  background: #ff9933;
+  color: #fff;
+}
+.menu-btn img {
+  width: 22px;
+}
+.nav-btn {
+  width: 100px;
+  text-align: center;
+}
+.nav-btn.active {
+  background: #ff9933;
+  color: #ffffff !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 50rem !important;
+  height: 40px;
+  margin-left: -1rem;
+}
+/* .nav-item:hover {
+  background: #ff9933;
+  color: #ffffff !important;
+  border-radius: 50rem !important;
+} */
+.nav-link.dropdown:hover,
+.nav-item:hover .nav-link:not(.active) {
+  background: #ff9933;
+  padding-left: 1rem;
+  margin-left: -1rem;
+}
+
+.nav-link:hover,.hero-btn:hover  {
+  color: #ffffff !important;
+}
+.menu-btn:hover {
+  background-color: #ff8000;
+  color: #ffffff !important;
+}
+/* hero */
+.btn.modal-btn {
+  width: 250px;
+  height: 44px;
+  border-radius: 25px;
+  color: #2e4e91;
+}
+#hero .bg-drop {
+  background: url("./assets/images/hero.png");
+}
+.event-btn {
+  background: #111111;
+  height: 60px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.event-btn:hover {
+  background: #111111;
+  height: 60px;
+  font-size: 16px;
+  color: #fff;
+}
+
+/* festivals */
+.d-block.ms-4 {
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.2) 40%, rgb(0, 0, 0));
+}
+
+/* parichay */
+.btn-container {
+  background: #ffffff;
+  width: 100%;
+}
+.my-btn {
+  background: #f3f5f8;
+  color: #111111;
+  font-weight: 500;
+}
+.btn-light:hover {
+  background: #ff9933;
+  color: #ffffff;
+}
+.my-btn:hover {
+  background: #fcab59;
+  color: #ffffff;
+}
+.btn-container {
+  width: 250px;
+  border-radius: 15px;
+}
+
+.ayojan-header p {
+  font-size: 13px;
+  width: 150px;
+}
+.ayojan-p-text {
+  width: 100%;
+  color: #637498;
+}
+.daan-text {
+  width: 100%;
+}
+.daan-text .mb-2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.daan-text .mt-2 {
+  font-size: 14px;
+}
+
+.daan-logo img {
+  width: 65px;
+  height: 50px;
+}
+.daan-logo .logo-text-container h1 {
+  font-size: 15px !important;
+}
+.daan-logo .logo-text-container h2 {
+  font-size: 13px !important;
+}
+.mantra {
+  width: 280px;
+}
+.my-crumb {
+  text-decoration: none;
+  color: #111111;
+}
+.my-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* animation */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fade-up {
+  animation: fadeUp 0.5s ease-in-out;
+}
+.home-event-text {
+  font-size: 14px;
+}
+/* mandir */
+.mandir-karykram {
+  font-size: 13px;
+}
+
+/* media queries */
+@media (min-width: 1200px) {
+  .navbar-nav {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+  }
+  .footer-subtext {
+    font-size: 12px;
+  }
+  .nav-link.dropdown:hover,
+  .nav-item:hover .nav-link:not(.active) {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 990px) {
+  .seva-img {
+    max-width: 300px;
+  }
+  .mandir-karykram {
+    font-size: 16px;
+  }
+  .ayojan-p-text {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .ayojan-header h2 {
+    font-size: 2rem;
+  }
+  .ayojan-header p {
+    font-size: 1rem;
+  }
+  .ayojan-header p {
+    width: 250px;
+  }
+  .daan-text {
+    width: 60%;
+  }
+  .home-event-text {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .daan-logo .logo-text-container h1 {
+    font-size: 20px !important;
+  }
+  .daan-logo .logo-text-container h2 {
+    font-size: 18px !important;
+  }
+  .navbar-brand img {
+    width: 60px;
+    height: 55px;
+  }
+
+  .daan-logo img {
+    width: 80px;
+    height: 63px;
+  }
+  .hindi-footer {
+    justify-content: space-between;
+  }
+}
